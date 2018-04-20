@@ -1,0 +1,16 @@
+<extension>
+	<modules>
+		<module>
+			<id>remove-dynamic-welcome</id>
+			<title>Remove the Dynamic Welcome dashlet for all users</title>
+			<version>1.0</version>
+			<auto-deploy>true</auto-deploy>
+			<customizations>
+				<customization>
+					<targetPackageRoot>org.alfresco</targetPackageRoot>
+					<sourcePackageRoot>br.com.dgcloud</sourcePackageRoot>
+				</customization>
+			</customizations>
+		</module>
+	</modules>
+</extension>
